@@ -1,5 +1,29 @@
 h1{
 	text-align: center;
 	border: 5px solid blue;
-	margin: 0 auto;
+	margin: 5% auto;
+}
+body{
+	color: white;
+	background: url(https://static.comicvine.com/uploads/original/11128/111289255/6264502-4318835171-majin.png);
+	background-size: cover;
+}
+.game {
+	height: 200px;
+	margin-top: 5%;
+}
+.right{
+	text-align: right;
+	background: black;
+	height: 200px;
+}
+.center{
+	color: red;
+	text-shadow: 5px solid gray;
+	text-align: center;
+	font-size: 6em;
+}
+.left{
+	background: black;
+	height: 200px;
 }
