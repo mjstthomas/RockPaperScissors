@@ -1,7 +1,10 @@
 h1{
 	text-align: center;
-	border: 5px solid blue;
-	margin: 5% auto;
+	text-shadow: 2px 4px 3px black;
+	font-size: 3em;
+	font-weight: 800;
+	border: 10px solid blue;
+	margin: 5% 25%;
 }
 body{
 	color: white;
@@ -11,6 +14,8 @@ body{
 .game {
 	height: 200px;
 	margin-top: 5%;
+	padding-right: 20%
+	padding-left: 20%;
 }
 .right{
 	text-align: right;
