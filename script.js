@@ -57,6 +57,6 @@ function game(){
 
 for(var i = 0; i < 6; i++){
 	if(round[i]){
-		game();
+		game();		
 	}
 }
