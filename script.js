@@ -55,8 +55,10 @@ function game(){
 	alert(x+" - "+y);
 }
 
-for(var i = 0; i < 6; i++){
-	if(round[i]){
-		game();		
+window.setTimeout(function(){
+	for(var i = 0; i < 6; i++){
+		if(round[i]){
+			game();		
+		}
 	}
-}
+}, 500);
