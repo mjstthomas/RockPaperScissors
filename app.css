@@ -4,16 +4,38 @@ h1{
 	font-size: 3em;
 	font-weight: 800;
 	border: 10px solid blue;
-	margin: 5% 25%;
+	margin: 5% 25% 15px 25%;
+}
+#scoreCard{
+	text-align: center;
+	text-shadow: 2px 4px 3px black;
+	font-size: 5em;
+	font-weight: 800;
 }
 body{
 	color: white;
 	background: url(https://static.comicvine.com/uploads/original/11128/111289255/6264502-4318835171-majin.png);
 	background-size: cover;
 }
+button{
+	color: red;
+	background: black;
+	text-align: center;
+	font-size: 2em;
+	text-shadow: 2px 4px 3px black;
+	font-weight: 800;
+	margin: 0 43%;
+
+}
+#reset{
+	margin-left: 46%;
+	margin-right: 46%;
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
 .game {
 	height: 200px;
-	margin-top: 5%;
+	margin-top: 5px;
 	padding-right: 20%
 	padding-left: 20%;
 }
@@ -31,4 +53,14 @@ body{
 .left{
 	background: black;
 	height: 200px;
+}
+#player{
+	font-size: 2em;
+}
+#computer{
+	font-size: 4em;
+}
+
+.winner{
+	color: green;
 }
